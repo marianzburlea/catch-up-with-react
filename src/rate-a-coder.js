@@ -6,9 +6,13 @@ class RateACoder extends React.Component {
 
   render() {
     return React.createElement("div", {}, [
-      React.createElement("h1", {
-        onClick: this.logClick
-      }, "Rate a Coder"),
+      React.createElement(
+        "h1",
+        {
+          onClick: this.logClick
+        },
+        "Rate a Coder"
+      ),
       React.createElement(Coder, {
         name: "Marian",
         job: "Front-End",
