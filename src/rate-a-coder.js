@@ -1,3 +1,4 @@
+/* global React ReactDOM */
 // add some JavaScript
 class RateACoder extends React.Component {
   logClick(e) {
