@@ -7,8 +7,7 @@ class RateACoder extends React.Component {
   render() {
     return React.createElement("div", {}, [
       React.createElement(
-        "h1",
-        {
+        "h1", {
           onClick: this.logClick
         },
         "Rate a Coder"
